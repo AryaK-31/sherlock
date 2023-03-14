@@ -21,8 +21,8 @@ export default function Steps() {
                                 <TbPuzzleFilled className='fill-blue-800 w-16 h-16 mx-auto' />
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 className="font-medium title-font text-blue-400 mb-1 text-xl">Round 1</h2>
-                                <h3 className='text-lg text-yellow-500'>NAME OF ROUND : </h3>
+                                <h2 className="title-font text-blue-400 mb-1 text-lg">Round 1</h2>
+                                <h3 className='text-xl font-medium text-yellow-500'>Death or Glory : </h3>
                                 <p className="leading-relaxed italic">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                             </div>
                         </div>
@@ -37,8 +37,8 @@ export default function Steps() {
                                 <AiFillEye className='fill-blue-800 w-16 h-16 mx-auto' />
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 className="font-medium title-font text-blue-400 mb-1 text-xl">Round 2</h2>
-                                <h3 className='text-lg text-yellow-500'>NAME OF ROUND : </h3>
+                                <h2 className="title-font text-blue-400 mb-1 text-lg">Round 2</h2>
+                                <h3 className='font-medium text-xl text-yellow-500'>You Can't catch me! : </h3>
                                 <p className="leading-relaxed italic">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                             </div>
                         </div>
@@ -55,18 +55,18 @@ export default function Steps() {
                             </div>
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 className="font-medium title-font text-blue-400 mb-1 text-xl">Round 3</h2>
-                                <h3 className='text-lg text-yellow-500'>NAME OF ROUND : </h3>
+                                <h2 className="title-font text-blue-400 mb-1 text-lg">Round 3</h2>
+                                <h3 className='text-xl font-medium text-yellow-500'>Let me IN : </h3>
                                 <p className="leading-relaxed italic">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className='hidden md:hidden lg:block justify-center p-40'>
+                <div className='hidden lg:block justify-center p-40'>
                     <Image src={Sher} />
                 </div>
             </div>
-            <hr className="mt-20 h-1 w-1/4 mx-auto my-8 bg-gradient-to-r from-blue-500 to-teal-100 border-0 dark:bg-gray-700" />
+            <hr className="mt-10 h-1 w-1/4 mx-auto bg-gradient-to-r from-blue-500 to-teal-100 border-0 dark:bg-gray-700" />
         </section>
     )
 }

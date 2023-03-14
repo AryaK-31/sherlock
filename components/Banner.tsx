@@ -55,7 +55,7 @@ export default function Banner() {
                     <Link href="#steps" scroll={false}><AiFillCaretDown className='text-white h-12 w-12 cursor-pointer ' /></Link>
                     
             </div>
-            <hr className="mt-20 h-1 w-1/4 mx-auto my-8 bg-gradient-to-r from-blue-500 to-teal-100 border-0 dark:bg-gray-700" />
+            <hr className="mt-20 h-1 w-1/4 mx-auto bg-gradient-to-r from-blue-500 to-teal-100 border-0 dark:bg-gray-700" />
         </section>
     )
 }
