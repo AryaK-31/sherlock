@@ -7,7 +7,7 @@ import { AiFillEye } from "react-icons/ai"
 
 export default function Steps() {
     return (
-        <section id="steps" className="text-white body-font bg-black mx-auto">
+        <section id="steps" className=" text-white body-font bg-black mx-auto">
             <h2 className='py-20 text-5xl text-white text-center underline underline-offset-8 decoration-blue-400'>Flow Of Event</h2>
             <div className='lg:grid lg:grid-cols-2'>
                 <div className="container py-20 lg:px-38 px-8 mx-auto flex flex-wrap">
@@ -66,6 +66,7 @@ export default function Steps() {
                     <Image src={Sher} />
                 </div>
             </div>
+            <hr className="mt-20 h-1 w-1/4 mx-auto my-8 bg-gradient-to-r from-blue-500 to-teal-100 border-0 dark:bg-gray-700" />
         </section>
     )
 }
