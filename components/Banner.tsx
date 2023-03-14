@@ -12,7 +12,7 @@ import {
 
 export default function Banner() {
     return (
-        <section className='h-screen  bg-black '>
+        <section className=' h-min  bg-black  '>
             <div className='lg:grid lg:grid-cols-2'>
                 <div className='text-center mx-auto lg:text-left p-10 lg:flex lg:flex-col lg:py-40'>
                     <h2 className='text-4xl py-2  text-white font-medium lg:text-5xl tracking-wide mb-3'>OWASP PCCOE</h2>
@@ -26,7 +26,8 @@ export default function Banner() {
                                     <span className='pr-4 text-yellow-400 hidden md:block lg:block'>For more details</span>
                                     <span className='lg:text-blue-400 text-yellow-400 pl-4 pr-4 font-medium'>Let's get HUNT'in</span>
                                     <span className='text-3xl md:pl-8 lg:pl-8 flex justify-center text-pink-600 cursor-pointer'>
-                                        <BsFillArrowRightCircleFill />
+                                        <Link href="#form" scroll={false}><BsFillArrowRightCircleFill /> </Link>                                     
+                                        
                                     </span>
                                 </p>
                             </div>
@@ -46,11 +47,13 @@ export default function Banner() {
                 </div>
             </div>
             <div className='text-4xl py-10 gap-16 justify-center text-gray-600 lg:flex hidden'>
-                    <Link href='/Description'>
+                    <Link href="#description" scroll={false}>
                     <AiFillCaretDown className='fill-yellow-500 h-12 w-12 cursor-pointer '  />
                     </Link>
-                    <AiFillInstagram className='text-red-600 h-12 w-12 cursor-pointer ' />
-                    <AiFillCaretDown className='text-white h-12 w-12 cursor-pointer ' />
+                    <Link href="https://www.instagram.com/pccoe_owasp/"><AiFillInstagram className='text-red-600 h-12 w-12 cursor-pointer ' /></Link>
+                                    
+                    <Link href="#steps" scroll={false}><AiFillCaretDown className='text-white h-12 w-12 cursor-pointer ' /></Link>
+                    
             </div>
             <hr className="mt-20 h-1 w-1/4 mx-auto my-8 bg-gradient-to-r from-blue-500 to-teal-100 border-0 dark:bg-gray-700" />
         </section>
