@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/legacy/image'
-import Sher from '../public/sherLogo.png'
+import Sher from '../public/SherLogo.png'
 import { SiTryhackme } from "react-icons/si"
 import { TbPuzzleFilled } from "react-icons/tb"
 import { AiFillEye } from "react-icons/ai"

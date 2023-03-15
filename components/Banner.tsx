@@ -43,7 +43,7 @@ export default function Banner() {
                     <AiFillCaretDown className='text-blue-500' />
                 </div>
                 <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 lg:w-96 lg:h-96 mx-auto mt-16 lg:mt-36 sm:p-16 overflow-hidden" >
-                    <Image src={deved} layout="fill" objectFit='cover' />
+                    <Image src={deved} layout="fill" objectFit='cover' alt='image'/>
                 </div>
             </div>
             <div className='text-4xl py-10 gap-16 justify-center text-gray-600 lg:flex hidden'>
