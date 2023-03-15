@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/legacy/image'
-import Sher from '../public/SherLogo.png'
+import Sher from '../public/herLogo.png'
 import { SiTryhackme } from "react-icons/si"
 import { TbPuzzleFilled } from "react-icons/tb"
 import { AiFillEye } from "react-icons/ai"
@@ -24,7 +24,7 @@ export default function Steps() {
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 1</h2>
                                 <h3 className='text-xl font-medium text-yellow-500'>Death or Glory </h3>
                                 <p className="leading-relaxed italic">
-                                    <ul>
+                                <ul>
                                         <li>Round 1 includes a quiz consisting of 20 questions based on
                                     situational trivia.</li>
                                     <li>Every team will be ranked on the maximum score of the submission.
@@ -37,8 +37,8 @@ export default function Steps() {
                                     automatically displayed every 30 seconds.</li>
                                     <li>All decisions regarding eligibility, authenticity & final judgment will be
                                     with the organizer.</li>
-                                    </ul>                                
-                                    </p>
+                                    </ul>                  
+                                </p>
                             </div>
                         </div>
                     </div>
