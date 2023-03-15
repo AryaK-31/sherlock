@@ -38,7 +38,7 @@ export default function Steps() {
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 2</h2>
-                                <h3 className='font-medium text-xl text-yellow-500'>You Can't catch me! </h3>
+                                <h3 className='font-medium text-xl text-yellow-500'>You Can&#39;t catch me! </h3>
                                 <p className="leading-relaxed italic">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                             </div>
                         </div>

@@ -24,7 +24,7 @@ export default function Banner() {
                             <div className="items-left">
                                 <p className="text-white px-3 py-2 flex justify-center text-xl lg:divide-x md:divide-x divide-gray-600">
                                     <span className='pr-4 text-yellow-400 hidden md:block lg:block'>For more details</span>
-                                    <span className='lg:text-blue-400 text-yellow-400 pl-4 pr-4 font-medium'>Let's get HUNT'in</span>
+                                    <span className='lg:text-blue-400 text-yellow-400 pl-4 pr-4 font-medium'>Let&#39;s get HUNT&#39;in</span>
                                     <span className='text-3xl md:pl-8 lg:pl-8 flex justify-center text-pink-600 cursor-pointer'>
                                         <Link href="#form" scroll={false}><BsFillArrowRightCircleFill /> </Link>                                     
                                         
