@@ -17,8 +17,8 @@ export default function Footer() {
                 </p>
                 
             </div>
-            <div>
-                <p>Design and Developed by team OWASP</p>
+            <div className='text-center'>
+                <p className=' text-white'>Design and Developed by team OWASP</p>
             </div>
         </footer>
     )
