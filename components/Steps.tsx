@@ -54,7 +54,20 @@ export default function Steps() {
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 2</h2>
                                 <h3 className='font-medium text-xl text-yellow-500'>You Can&#39;t catch me! </h3>
-                                <p className="leading-relaxed italic">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <p className="leading-relaxed italic">
+                                    <ul>
+                                        <li>Only 30 teams will qualify for round 2.</li>
+                                        <li>Every team will be given 30 min for reconnaissance of campus.</li>
+                                        <li>Image should contain a clear picture of the place assigned to you.</li>
+                                        <li>If the team does not find the pictures appropriate, no further
+                                        arguments will be entertained.</li>
+                                        <li>There will be questions based on the places inside the campus and
+                                        the teams which answer the questions correctly and faster will move
+                                        on to the next round.</li>
+                                        <li>Each team must answer at least three questions to be eligible to
+                                        qualify for the next round.</li>                                                                                                          
+                                    </ul>
+                                        </p>                                    
                             </div>
                         </div>
                     </div>
@@ -72,7 +85,22 @@ export default function Steps() {
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 3</h2>
                                 <h3 className='text-xl font-medium text-yellow-500'>Let me IN </h3>
-                                <p className="leading-relaxed italic">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <p className="leading-relaxed italic">
+                                    <ul>
+                                        <li>Only top 15 teams will qualify for round 3.</li>
+                                        <li>The whole college campus is in scope of this challenge.</li>
+                                        <li>Make sure you download a QR scanner before the round begins.</li>
+                                        <li>Sharing file password is strictly prohibited and may lead to
+                                            disqualification.</li>
+                                        <li>Each team will be having an event volunteer with them for any
+                                            support.</li>
+                                        <li>Make sure you download the required files before the round starts,
+                                            to avoid internet issues on campus.</li>
+                                        <li>If the event volunteer suspects any kind of cheating or misconduct, it
+                                            will result in direct elimination.</li>
+                                    </ul>                                   
+
+                                </p>
                             </div>
                         </div>
                     </div>
