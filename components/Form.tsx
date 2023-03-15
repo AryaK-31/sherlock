@@ -32,14 +32,14 @@ export default function Form() {
                             </div>
                             <div className="p-2 sm:w-full md:w-1/2">
                                 <div className="relative">
-                                    <label htmlFor="email" className="leading-7 text-lg text-black">Email Player 1</label>
-                                    <input type="email" id="email" name="email" placeholder='Enter Team Member 2' className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                    <label htmlFor="email" className="leading-7 text-lg text-black">Phone No:</label>
+                                    <input type="text" id="email" name="email" placeholder='Team Member 1' className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
                             <div className="p-2 sm:w-full md:w-1/2">
                                 <div className="relative">
-                                    <label htmlFor="email" className="leading-7 text-lg text-black">Email Player 2</label>
-                                    <input type="email" id="email" name="email" placeholder='Enter Team Member 3' className="w-full  bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                    <label htmlFor="email" className="leading-7 text-lg text-black">Phone No : </label>
+                                    <input type="text" id="email" name="email" placeholder='Team Member 2' className="w-full  bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
                             <div className="p-2 w-full mt-10">
