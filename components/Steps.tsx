@@ -23,7 +23,22 @@ export default function Steps() {
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 1</h2>
                                 <h3 className='text-xl font-medium text-yellow-500'>Death or Glory </h3>
-                                <p className="leading-relaxed italic">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <p className="leading-relaxed italic">
+                                    <ul>
+                                        <li>Round 1 includes a quiz consisting of 20 questions based on
+                                    situational trivia.</li>
+                                    <li>Every team will be ranked on the maximum score of the submission.
+                                    If two teams have the same score, the team that finished earlier will
+                                    be ranked higher.</li>
+                                    <li>Round will be conducted on Slido platform.</li>
+                                    <li>Every team should be present at the allocated lab on time.</li>
+                                    <li>All team members should be present in round 1.</li>
+                                    <li>Each question will be allocated 30 seconds. Next question will be
+                                    automatically displayed every 30 seconds.</li>
+                                    <li>All decisions regarding eligibility, authenticity & final judgment will be
+                                    with the organizer.</li>
+                                    </ul>                                
+                                    </p>
                             </div>
                         </div>
                     </div>
