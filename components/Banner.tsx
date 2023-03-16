@@ -24,8 +24,8 @@ export default function Banner() {
                                     <span className='pr-4 text-yellow-400 hidden md:block lg:block'>For more details</span>
                                     <span className='lg:text-blue-400 text-yellow-400 pl-4 pr-4 font-medium'>Let&#39;s get HUNT&#39;in</span>
                                     <span className='text-3xl md:pl-8 lg:pl-8 flex justify-center text-pink-600 cursor-pointer'>
-                                        <Link href="#form" scroll={false}><BsFillArrowRightCircleFill /> </Link>                                     
-                                        
+                                        <Link href="#form" scroll={false}><BsFillArrowRightCircleFill /> </Link>
+
                                     </span>
                                 </p>
                             </div>
@@ -33,27 +33,27 @@ export default function Banner() {
                     </div>
                 </div>
                 <div className='lg:hidden text-4xl py-1 gap-16 justify-center text-gray-600 flex'>
-                    <Link href="\Description">
-                    <AiFillCaretDown className='fill-yellow-500' />
+                    <Link href="#description" scroll={false}>
+                        <AiFillCaretDown className='fill-yellow-500 h-12 w-12 cursor-pointer ' />
                     </Link>
-                    {/* <h3><Link href='/Description'>Description</Link></h3> */}
-                    <AiFillInstagram className='text-red-600' />
-                    <AiFillCaretDown className='text-blue-500' />
+                    <Link href="https://www.instagram.com/pccoe_owasp/"><AiFillInstagram className='text-red-600 h-12 w-12 cursor-pointer ' /></Link>
+
+                    <Link href="#steps" scroll={false}><AiFillCaretDown className='text-white h-12 w-12 cursor-pointer ' /></Link>
                 </div>
                 <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 lg:w-96 lg:h-96 mx-auto mt-16 lg:mt-36 sm:p-16 overflow-hidden" >
-                    <Image src={deved} layout="fill" objectFit='cover' alt='image'/>
+                    <Image src={deved} layout="fill" objectFit='cover' alt='image' />
                 </div>
             </div>
             <div className='text-4xl py-10 gap-16 justify-center text-gray-600 lg:flex hidden'>
-                    <Link href="#description" scroll={false}>
-                    <AiFillCaretDown className='fill-yellow-500 h-12 w-12 cursor-pointer '  />
-                    </Link>
-                    <Link href="https://www.instagram.com/pccoe_owasp/"><AiFillInstagram className='text-red-600 h-12 w-12 cursor-pointer ' /></Link>
-                                    
-                    <Link href="#steps" scroll={false}><AiFillCaretDown className='text-white h-12 w-12 cursor-pointer ' /></Link>
-                    
+                <Link href="#description" scroll={false}>
+                    <AiFillCaretDown className='fill-yellow-500 h-12 w-12 cursor-pointer ' />
+                </Link>
+                <Link href="https://www.instagram.com/pccoe_owasp/"><AiFillInstagram className='text-red-600 h-12 w-12 cursor-pointer ' /></Link>
+
+                <Link href="#steps" scroll={false}><AiFillCaretDown className='text-white h-12 w-12 cursor-pointer ' /></Link>
+
             </div>
-            <div className="mt-20 h-1 w-1/4 my-4 mx-auto bg-gradient-to-r from-blue-500 to-teal-100 border-0 dark:bg-gray-700" />
+            <div className="mt-20 h-1 w-1/4 mx-auto bg-gradient-to-r from-blue-500 to-teal-100 border-0 dark:bg-gray-700" />
         </section>
     )
 }

@@ -24,20 +24,11 @@ export default function Steps() {
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 1</h2>
                                 <h3 className='text-xl font-medium text-yellow-500'>Death or Glory </h3>
                                 <p className="leading-relaxed italic">
-                                <ul>
-                                        <li>Round 1 includes a quiz consisting of 20 questions based on
-                                    situational trivia.</li>
-                                    <li>Every team will be ranked on the maximum score of the submission.
-                                    If two teams have the same score, the team that finished earlier will
-                                    be ranked higher.</li>
-                                    <li>Round will be conducted on Slido platform.</li>
-                                    <li>Every team should be present at the allocated lab on time.</li>
-                                    <li>All team members should be present in round 1.</li>
-                                    <li>Each question will be allocated 30 seconds. Next question will be
-                                    automatically displayed every 30 seconds.</li>
-                                    <li>All decisions regarding eligibility, authenticity & final judgment will be
-                                    with the organizer.</li>
-                                    </ul>                  
+                                    <ul>
+                                        <li>This is a round to test your speed and accuracy.</li>
+                                        <li>here the teams will have to answer a 20 question quiz.</li>
+                                        <li>top 30 teams will get closer to hunt the hacker down.</li>
+                                    </ul>
                                 </p>
                             </div>
                         </div>
@@ -56,18 +47,12 @@ export default function Steps() {
                                 <h3 className='font-medium text-xl text-yellow-500'>You Can&#39;t catch me! </h3>
                                 <p className="leading-relaxed italic">
                                     <ul>
-                                        <li>Only 30 teams will qualify for round 2.</li>
-                                        <li>Every team will be given 30 min for reconnaissance of campus.</li>
-                                        <li>Image should contain a clear picture of the place assigned to you.</li>
-                                        <li>If the team does not find the pictures appropriate, no further
-                                        arguments will be entertained.</li>
-                                        <li>There will be questions based on the places inside the campus and
-                                        the teams which answer the questions correctly and faster will move
-                                        on to the next round.</li>
-                                        <li>Each team must answer at least three questions to be eligible to
-                                        qualify for the next round.</li>                                                                                                          
+                                        <li>This is the round where you will try to find the hide-out of the hacker by observing the key places in entire
+                                            campus to search for the hacker's hide-out.</li>
+                                        <li>Top 15 teams will be just 1 step away of finding the.</li>
+
                                     </ul>
-                                        </p>                                    
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -78,27 +63,19 @@ export default function Steps() {
                         <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">3</div>
                         <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                             <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                                <SiTryhackme className='fill-blue-800 w-16 h-16 mx-auto' />
-                            </div>
+                                <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                                    <SiTryhackme className='fill-blue-800 w-16 h-16 mx-auto' />
+                                </div>
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 3</h2>
                                 <h3 className='text-xl font-medium text-yellow-500'>Let me IN </h3>
                                 <p className="leading-relaxed italic">
                                     <ul>
-                                        <li>Only top 15 teams will qualify for round 3.</li>
-                                        <li>The whole college campus is in scope of this challenge.</li>
-                                        <li>Make sure you download a QR scanner before the round begins.</li>
-                                        <li>Sharing file password is strictly prohibited and may lead to
-                                            disqualification.</li>
-                                        <li>Each team will be having an event volunteer with them for any
-                                            support.</li>
-                                        <li>Make sure you download the required files before the round starts,
-                                            to avoid internet issues on campus.</li>
-                                        <li>If the event volunteer suspects any kind of cheating or misconduct, it
-                                            will result in direct elimination.</li>
-                                    </ul>                                   
+                                        <li>Let's get moving and hunting the hacker down by playing his final game</li>
+                                        <li>Treasure Hunt where we will find the hacker and get our device back to safety.</li>
+
+                                    </ul>
 
                                 </p>
                             </div>
