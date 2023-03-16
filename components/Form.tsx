@@ -18,7 +18,8 @@ export default function Form() {
           })
           .catch((error) => {
             console.log(error);
-          });
+          });          
+          alert("Registration Done Successfully");
       }
     return (
         <section id='form' >
