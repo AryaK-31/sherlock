@@ -2,8 +2,8 @@ import React from 'react'
 
 
 export default function Form() {
-    function Submit(e) {
-        const formEle = document.querySelector("form");     
+    function Submit(e:React.FormEvent<HTMLFormElement>) {
+        const formEle = document.querySelector("form")!;     
         const formDatab = new FormData(formEle);
         fetch(
           "https://script.google.com/macros/s/AKfycbwod5fgboX6n_YIGJIN07KxxPqGezPJc4S0YnWSqwtFTAASJ3d-di9je-b69NQ6md3aAA/exec",
