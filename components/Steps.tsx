@@ -48,7 +48,7 @@ export default function Steps() {
                                 <p className="leading-relaxed italic">
                                     <ul>
                                         <li>This is the round where you will try to find the hide-out of the hacker by observing the key places in entire
-                                            campus to search for the hacker's hide-out.</li>
+                                            campus to search for the hacker&#39;s hide-out.</li>
                                         <li>Top 15 teams will be just 1 step away of finding the.</li>
 
                                     </ul>
@@ -72,7 +72,7 @@ export default function Steps() {
                                 <h3 className='text-xl font-medium text-yellow-500'>Let me IN </h3>
                                 <p className="leading-relaxed italic">
                                     <ul>
-                                        <li>Let's get moving and hunting the hacker down by playing his final game</li>
+                                        <li>Let&#39;s get moving and hunting the hacker down by playing his final game</li>
                                         <li>Treasure Hunt where we will find the hacker and get our device back to safety.</li>
 
                                     </ul>
