@@ -4,8 +4,6 @@ import Image from 'next/legacy/image'
 import Link from 'next/link';
 import { BsFillArrowRightCircleFill } from "react-icons/bs"
 import {
-    AiFillTwitterCircle,
-    AiFillLinkedin,
     AiFillInstagram,
     AiFillCaretDown
 } from "react-icons/ai";
@@ -55,7 +53,7 @@ export default function Banner() {
                     <Link href="#steps" scroll={false}><AiFillCaretDown className='text-white h-12 w-12 cursor-pointer ' /></Link>
                     
             </div>
-            <hr className="mt-20 h-1 w-1/4 mx-auto bg-gradient-to-r from-blue-500 to-teal-100 border-0 dark:bg-gray-700" />
+            <div className="mt-20 h-1 w-1/4 my-4 mx-auto bg-gradient-to-r from-blue-500 to-teal-100 border-0 dark:bg-gray-700" />
         </section>
     )
 }
