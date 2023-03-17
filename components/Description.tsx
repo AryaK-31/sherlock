@@ -6,17 +6,22 @@ export default function Description() {
         <section id="description">
             <div className='bg-black'>
                 <h2 className='py-20 text-5xl text-white text-center underline underline-offset-8 decoration-blue-400 mb-4 '>About Event</h2>
+                <div className='sm: text-gray-400 sm:text-xs md:text-black text-center'>
+                                Tap on the images for brief Description.
+                </div>
                 <div className="flex p-8 items-center justify-center">
                     <div className="grid lg:px-12 grid-cols-1 lg:gap-40 gap-20 md:grid-cols-2 lg:grid-cols-4">
                         <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                             <div className="h-84 w-88">
-                                <img className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 " src="https://images.unsplash.com/photo-1518281361980-b26bfd556770?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="img" />
+                                <img className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://images.unsplash.com/photo-1518281361980-b26bfd556770?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="img" />
                             </div>
                             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                             <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                                <h1 className="font-dmserif text-3xl font-bold text-white mb-10">Time Managament</h1>
-                                <p className="mb-10 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
-                                <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                                <h1 className="font-dmserif text-3xl font-bold text-white mb-12">Time Managament</h1>
+                                <p className="lg:mb-10 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">use time as a tool, not as a couch</p>
+                                <div className=' w-full h-1/4'>
+
+                                </div>
                             </div>
                         </div>
                         <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
@@ -26,8 +31,10 @@ export default function Description() {
                             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                             <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                                 <h1 className="font-dmserif text-3xl font-bold text-white mb-10">Brain Test</h1>
-                                <p className="lg:mb-10 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
-                                <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                                <p className="lg:mb-10 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Follow your heart but take your brain with you</p>
+                                <div className=' w-full h-1/4'>
+
+                                </div>
                             </div>
                         </div>
                         <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
@@ -37,9 +44,12 @@ export default function Description() {
                             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                             <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                                 <h1 className="font-dmserif text-3xl font-bold text-white mb-10">Accuracy</h1>
-                                <p className="mb-10 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
-                                <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                                <p className="mb-10 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Fast is fine but accuracy is everything.. take your time but in a hurry</p>
+                                <div className=' w-full h-1/4'>
+
+                                </div>
                             </div>
+                            
                         </div>
                         <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                             <div className="h-84 w-88">
@@ -49,7 +59,9 @@ export default function Description() {
                             <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                                 <h1 className="font-dmserif text-3xl font-bold text-white mb-20">Prize Money</h1>
                                 <p className="mb-10 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Cash prize of ₹7,500 and goodies.</p>
-                                <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+                                <div className=' w-full h-1/4'>
+
+                                </div>
                             </div>
                         </div>
                     </div>

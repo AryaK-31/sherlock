@@ -1,12 +1,15 @@
 import React from 'react'
-
+import { useState } from 'react';
 
 export default function Form() {
+    const [mail,setmail]=useState('');
     function Submit(e:React.FormEvent<HTMLFormElement>) {
+        const mailadd=document.getElementById("emill")?.innerHTML!;
+        setmail(mailadd);
         const formEle = document.querySelector("form")!;     
         const formDatab = new FormData(formEle);
         fetch(
-          "https://script.google.com/macros/s/AKfycbwod5fgboX6n_YIGJIN07KxxPqGezPJc4S0YnWSqwtFTAASJ3d-di9je-b69NQ6md3aAA/exec",
+          "https://script.google.com/macros/s/AKfycbyHlKLsOu7q_mwiirP0F8VgnKC_Wfm77LoS284ee5Glng1Xu3frtcM7J0zLoQSdAXy5CA/exec",
           {
             method: "POST",
             body: formDatab
@@ -29,13 +32,20 @@ export default function Form() {
                         <h2 className='py-20 text-5xl text-white text-center underline underline-offset-8 decoration-blue-400'>Register NOW</h2>
                         <p className="lg:w-2/3 mx-auto leading-relaxed text-xl">Register for this exciting event and get ready to crack some serious code!!!</p>
                     </div>
-                    <form className="lg:w-1/2 md:w-2/3 mx-auto bg-white p-20 rounded-xl shadow-xl shadow-cyan-500 " onSubmit={(e) => Submit(e)} >
+                    <form action={`mailto:${mail}`} method="post" className="lg:w-1/2 md:w-2/3 mx-auto bg-white p-20 rounded-xl shadow-xl shadow-cyan-500 " onSubmit={(e) => Submit(e)} >
                         <h1 className='lg:text-5xl text-3xl text-center w-full'>Team </h1>
                         <h1 className='lg:text-5xl text-3xl text-center mb-10 w-full'>Registration</h1>
                         <div className="w-full mb-10">
                             <div className="relative">
                                 <label htmlFor="name" className="leading-7 text-lg text-black">Team Name</label>
                                 <input type="text" id="name" name="Name" placeholder="Team Name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                <p className=' text-red-700 text-sm'>*required</p>
+                            </div>
+                        </div>
+                        <div className="w-full mb-10">
+                            <div className="relative">
+                                <label htmlFor="name" className="leading-7 text-lg text-black">Email</label>
+                                <input type="email" id="emill" name="Email" placeholder="Email Of Team Leader" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 <p className=' text-red-700 text-sm'>*required</p>
                             </div>
                         </div>

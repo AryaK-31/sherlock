@@ -15,7 +15,7 @@ export default function Banner() {
                 <div className='text-center mx-auto lg:text-left p-10 lg:flex lg:flex-col lg:py-40'>
                     <h2 className='text-4xl py-2  text-white font-medium lg:text-5xl tracking-wide mb-3'>OWASP PCCOE</h2>
                     <h3 className='text-xl py-2 lg:text-3xl md:text-4xl text-blue-500 font-medium mb-3 underline underline-offset-8 decoration-orange-600'>This <span className='text-orange-600'>ANANTYA</span>  Presents...</h3>
-                    <h2 className='text-5xl py-2 text-white font-medium lg:text-6xl mb-10 lg:tracking-wider'>SHER-LOCK</h2>
+                    <h2 className='text-5xl py-2 text-white font-medium lg:text-6xl mb-10 lg:tracking-wider'>SHER-[LOCK]</h2>
                     <div className="relative group w-100 max-w-xl mt-12 mx-auto">
                         <div className="absolute -inset-1 bg-gradient-to-r from-[#05c1fa] to-[#fa056b] rounded-lg blur opacity-95 group-hover:from-[#6f02e4] group-hover:to-[#fa0505] group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                         <div className="relative py-1 bg-black ring-1 ring-gray-900/5 rounded-lg leading-none ">

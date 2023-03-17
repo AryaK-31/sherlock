@@ -47,11 +47,12 @@ export default function Steps() {
                                 <h3 className='font-medium text-xl text-yellow-500'>You Can&#39;t catch me! </h3>
                                 <p className="leading-relaxed italic">
                                     <ul>
-                                        <li>This is the round where you will try to find the hide-out of the hacker by observing the key places in entire
-                                            campus to search for the hacker&#39;s hide-out.</li>
-                                        <li>Top 15 teams will be just 1 step away of finding the.</li>
+                                        <li>This is the round where you will try to find the hide-out of the hacker by observing the key places in the entire campus.</li>
+                                        <li>Top 15 teams will be just 1 step away from finding the hacker&#39;s hideout.</li>
 
                                     </ul>
+                                    
+
                                 </p>
                             </div>
                         </div>
