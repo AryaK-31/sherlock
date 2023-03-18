@@ -36,44 +36,44 @@ export default function Form() {
                         <div className="w-full mb-10">
                             <div className="relative">
                                 <label htmlFor="name" className="leading-7 text-lg text-black">Team Name</label>
-                                <input type="text" id="name" name="Name" placeholder="Team Name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                                <p className=' text-red-700 text-sm'>*required</p>
+                                <input required type="text" id="name" name="Name" placeholder="Team Name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                
                             </div>
                         </div>
                         <div className="w-full mb-10">
                             <div className="relative">
                                 <label htmlFor="name" className="leading-7 text-lg text-black">Email</label>
-                                <input type="email" id="emill" name="Email" placeholder="Email Of Team Leader" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                                <p className=' text-red-700 text-sm'>*required</p>
+                                <input required type="email" id="emill" name="Email" placeholder="Email Of Team Leader" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                
                             </div>
                         </div>
                         <div className="flex flex-wrap -m-2 lg:flex-row flex-col">
                             <div className="p-2 sm:w-full md:w-1/2">
                                 <div className="relative">
                                     <label htmlFor="name" className="leading-7 text-lg text-black">Team Member 1</label>
-                                    <input type="text" id="name" name="Member1" placeholder='Name(Member 1)' className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out " />
-                                    <p className=' text-red-700 text-sm'>*required</p>
+                                    <input required type="text" id="name" name="Member1" placeholder='Name(Member 1)' className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out " />
+                                    
                                 </div>
                             </div>
                             <div className="p-2 sm:w-full md:w-1/2">
                                 <div className="relative">
                                     <label htmlFor="email" className="leading-7 text-lg text-black">Team Member 2</label>
-                                    <input type="text" id="email" name="Member2" placeholder='Name(Member 2)' className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                                    <p className=' text-red-700 text-sm'>*required</p>
+                                    <input required type="text" id="email" name="Member2" placeholder='Name(Member 2)' className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                    
                                 </div>
                             </div>
                             <div className="p-2 sm:w-full md:w-1/2">
                                 <div className="relative">
                                     <label htmlFor="email" className="leading-7 text-lg text-black">Phone No:</label>
-                                    <input type="text" id="email" name="Phoneno1" placeholder='Member 1' className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                                    <p className=' text-red-700 text-sm'>*required</p>
+                                    <input required type="text" id="email" name="Phoneno1" placeholder='Member 1' className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                    
                                 </div>
                             </div>
                             <div className="p-2 sm:w-full md:w-1/2">
                                 <div className="relative">
                                     <label htmlFor="email" className="leading-7 text-lg text-black">Phone No:</label>
-                                    <input type="text" id="email" name="Phoneno2" placeholder='Member 2' className="w-full  bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                                    <p className=' text-red-700 text-sm'>*required</p>
+                                    <input required type="text" id="email" name="Phoneno2" placeholder='Member 2' className="w-full  bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                    
                                 </div>
                             </div>
                             <div className="p-2 w-full mt-10">
