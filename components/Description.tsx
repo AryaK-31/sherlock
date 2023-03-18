@@ -34,7 +34,7 @@ Let us seek assistance from Team OWASP to track down this cybercriminal. We can 
                                 <h1 className="font-dmserif text-3xl font-bold text-white mb-12">Brain Test</h1>
                                 <p className="lg:mb-10 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">There will be three levels, and as you pass each one, the hacker will appear closer to you. Somewhere in your vicinity is a hidden chest containing the clues you need to identify the hacker.
 
-Let's go on a treasure hunt together.</p>
+Let us go on a treasure hunt together.</p>
                                 {/* <div className=' w-full h-1/4'>
 
                                 </div> */}
