@@ -18,10 +18,11 @@ export default function Description() {
                             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                             <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                                 <h1 className="font-dmserif text-3xl font-bold text-white mb-12">Time Managament</h1>
-                                <p className="lg:mb-10 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">use time as a tool, not as a couch</p>
-                                <div className=' w-full h-1/4'>
+                                <p className="lg:mb-10 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Use time as a tool, not as a couch. You and a friend were engaged in a game when suddenly your device was hacked.
+Let us seek assistance from Team OWASP to track down this cybercriminal. We can identify the hacker if , we apply some basic level IQ & fun logic to find the treasure.</p>
+                                {/* <div className=' w-full h-1/4'>
 
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
@@ -30,11 +31,13 @@ export default function Description() {
                             </div>
                             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                             <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                                <h1 className="font-dmserif text-3xl font-bold text-white mb-10">Brain Test</h1>
-                                <p className="lg:mb-10 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Follow your heart but take your brain with you</p>
-                                <div className=' w-full h-1/4'>
+                                <h1 className="font-dmserif text-3xl font-bold text-white mb-12">Brain Test</h1>
+                                <p className="lg:mb-10 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">There will be three levels, and as you pass each one, the hacker will appear closer to you. Somewhere in your vicinity is a hidden chest containing the clues you need to identify the hacker.
 
-                                </div>
+Let's go on a treasure hunt together.</p>
+                                {/* <div className=' w-full h-1/4'>
+
+                                </div> */}
                             </div>
                         </div>
                         <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
