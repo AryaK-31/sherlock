@@ -30,7 +30,7 @@ export default function Form() {
                         <h2 className='py-20 text-5xl text-white text-center underline underline-offset-8 decoration-blue-400'>Register NOW</h2>
                         <p className="lg:w-2/3 mx-auto leading-relaxed text-xl">Register for this exciting event and get ready to crack some serious code!!!</p>
                     </div>
-                    <form className="lg:w-1/2 md:w-2/3 mx-auto bg-white p-20 rounded-xl shadow-xl shadow-cyan-500 " onSubmit={(e) => Submit(e)} >
+                    <form className="lg:w-1/2 md:w-2/3 mx-auto bg-white p-20 rounded-xl drop-shadow-xl shadow-cyan-500 " onSubmit={(e) => Submit(e)} >
                         <h1 className='lg:text-5xl text-3xl text-center w-full'>Team </h1>
                         <h1 className='lg:text-5xl text-3xl text-center mb-10 w-full'>Registration</h1>
                         <div className="w-full mb-10">

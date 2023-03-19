@@ -6,10 +6,15 @@ import Footer from '@/components/Footer'
 import Steps from '@/components/Steps'
 import Form from '@/components/Form'
 const inter = Inter({ subsets: ['latin'] })
+import Head from 'next/head';
 
 export default function Home() {
   return (
+
     <>
+      <Head>
+        <title>Shelock</title>
+      </Head>
       <Navbar />
       <Banner />
       <Steps />

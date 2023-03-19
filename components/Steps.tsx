@@ -7,6 +7,7 @@ import { AiFillEye } from "react-icons/ai"
 
 export default function Steps() {
     return (
+        
         <section id="steps" className=" text-white body-font bg-black mx-auto">
             <h2 className='py-20 text-5xl text-white text-center underline underline-offset-8 decoration-blue-400'>Flow Of Event</h2>
             <div className='lg:grid lg:grid-cols-2'>
@@ -23,7 +24,7 @@ export default function Steps() {
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 1</h2>
                                 <h3 className='text-xl font-medium text-yellow-500'>Death or Glory </h3>
-                                <p className="leading-relaxed italic">
+                                <p className="leading-relaxed italic text-lg">
                                     <ul>
                                         <li>This is a round to test your speed and accuracy.</li>
                                         <li>here the teams will have to answer a 20 question quiz.</li>
@@ -45,7 +46,7 @@ export default function Steps() {
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 2</h2>
                                 <h3 className='font-medium text-xl text-yellow-500'>You Can&#39;t catch me! </h3>
-                                <p className="leading-relaxed italic">
+                                <p className="leading-relaxed italic text-lg">
                                     <ul>
                                         <li>This is the round where you will try to find the hide-out of the hacker by observing the key places in the entire campus.</li>
                                         <li>Top 15 teams will be just 1 step away from finding the hacker&#39;s hideout.</li>
@@ -71,7 +72,7 @@ export default function Steps() {
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 3</h2>
                                 <h3 className='text-xl font-medium text-yellow-500'>Let me IN </h3>
-                                <p className="leading-relaxed italic">
+                                <p className="leading-relaxed italic text-lg">
                                     <ul>
                                         <li>Let&#39;s get moving and hunting the hacker down by playing his final game</li>
                                         <li>Treasure Hunt where we will find the hacker and get our device back to safety.</li>
@@ -83,7 +84,7 @@ export default function Steps() {
                         </div>
                     </div>
                 </div>
-                <div className='hidden lg:block justify-center p-40'>
+                <div className='lg:block justify-center lg:py-40 lg:px-72 p-4'>
                     <Image src={Sher} />
                 </div>
             </div>
