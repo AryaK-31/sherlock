@@ -12,7 +12,7 @@ export default function Description() {
                     Tap on the images for brief Description.
                 </div>
                 <div className="flex p-8 items-center justify-center">
-                    <div className="grid lg:px-12 grid-cols-1 lg:gap-40 gap-20 md:grid-cols-2 lg:grid-cols-4">
+                    <div className="grid lg:px-12 grid-cols-1 lg:gap-40 gap-20 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
                         <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                             <div className="h-84 w-88">
                                 <img className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://images.unsplash.com/photo-1518281361980-b26bfd556770?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="img" />
