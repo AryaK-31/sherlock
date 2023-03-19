@@ -13,7 +13,7 @@ export default function Home() {
 
     <>
       <Head>
-        <title>Shelock</title>
+        <title>Sherlock</title>
       </Head>
       <Navbar />
       <Banner />
