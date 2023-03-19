@@ -11,7 +11,7 @@ export default function Steps() {
         <section id="steps" className=" text-white body-font bg-black mx-auto">
             <h2 className='py-20 text-5xl text-white text-center underline underline-offset-8 decoration-blue-400'>Flow Of Event</h2>
             <div className='lg:grid lg:grid-cols-2'>
-                <div className="container py-20 lg:px-38 px-8 mx-auto flex flex-wrap">
+                <div className="container py-20 lg:px-34 px-8 mx-auto flex flex-wrap">
                     <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
                         <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
                             <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -24,7 +24,7 @@ export default function Steps() {
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 1</h2>
                                 <h3 className='text-xl font-medium text-yellow-500'>Death or Glory </h3>
-                                <p className="leading-relaxed italic text-lg">
+                                <p className="leading-relaxed italic">
                                     <ul>
                                         <li>This is a round to test your speed and accuracy.</li>
                                         <li>here the teams will have to answer a 20 question quiz.</li>
@@ -46,7 +46,7 @@ export default function Steps() {
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 2</h2>
                                 <h3 className='font-medium text-xl text-yellow-500'>You Can&#39;t catch me! </h3>
-                                <p className="leading-relaxed italic text-lg">
+                                <p className="leading-relaxed italic">
                                     <ul>
                                         <li>This is the round where you will try to find the hide-out of the hacker by observing the key places in the entire campus.</li>
                                         <li>Top 15 teams will be just 1 step away from finding the hacker&#39;s hideout.</li>
@@ -72,7 +72,7 @@ export default function Steps() {
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="title-font text-blue-400 mb-1 text-lg">Round 3</h2>
                                 <h3 className='text-xl font-medium text-yellow-500'>Let me IN </h3>
-                                <p className="leading-relaxed italic text-lg">
+                                <p className="leading-relaxed italic">
                                     <ul>
                                         <li>Let&#39;s get moving and hunting the hacker down by playing his final game</li>
                                         <li>Treasure Hunt where we will find the hacker and get our device back to safety.</li>
