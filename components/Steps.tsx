@@ -10,7 +10,8 @@ export default function Steps() {
         
         <section id="steps" className=" text-white body-font bg-black mx-auto">
             <h2 className='py-20 text-5xl text-white text-center underline underline-offset-8 decoration-blue-400'>Flow Of Event</h2>
-            <div className='lg:grid lg:grid-cols-2'>
+            
+            <div className='lg:grid md:grid-cols-2'>
                 <div className="container py-20 lg:px-34 px-8 mx-auto flex flex-wrap">
                     <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
                         <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
@@ -84,11 +85,12 @@ export default function Steps() {
                         </div>
                     </div>
                 </div>
-                <div className='lg:block justify-center lg:py-40 lg:px-72 p-4'>
+                <div className='lg:block justify-center lg:py-40 lg:px-72 p-4  md:text-center'>
                     <Image src={Sher} />
                 </div>
             </div>
-            <hr className="mt-10 h-1 w-1/4 mx-auto bg-gradient-to-r from-blue-500 to-teal-100 border-0 dark:bg-gray-700" />
-        </section>
+        
+        <hr className="mt-10 h-1 w-1/4 mx-auto bg-gradient-to-r from-blue-500 to-teal-100 border-0 dark:bg-gray-700" />
+    </section>
     )
 }
