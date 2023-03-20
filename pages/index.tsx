@@ -19,7 +19,7 @@ export default function Home() {
       <Banner />
       <Steps />
       <Description />
-      <Form />
+      {/* <Form /> */}
       <Footer />
     </>
   )
